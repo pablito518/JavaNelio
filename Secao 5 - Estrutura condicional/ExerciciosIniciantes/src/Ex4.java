@@ -20,5 +20,6 @@ public class Ex4 {
         }
         System.out.println("O jogo durou " + duracao + " hora(s)");
 
+        sc.close();
     }
 }

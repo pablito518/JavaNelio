@@ -28,7 +28,6 @@ public class Ex5 {
         }
         System.out.println("Total: R$" + precoTotal);
 
-
-
+        sc.close();
     }
 }
