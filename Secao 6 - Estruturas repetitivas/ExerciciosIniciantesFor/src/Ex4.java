@@ -22,6 +22,7 @@ public class Ex4 {
 
         }
 
+        sc.close();
 
     }
 }
