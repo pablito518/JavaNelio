@@ -3,25 +3,19 @@ package exercicio3.entities;
 import java.text.MessageFormat;
 
 public class Student {
-    public String nome;
-    public double primeiroTrimestre;
-    public double segundoTrimestre;
-    public double terceiroTrimestre;
-
-    public String checkResults(){
-        double finalGrade = primeiroTrimestre + segundoTrimestre + terceiroTrimestre;
-        String result;
-        if(finalGrade >= 60){
-           result = finalGrade + "\nPASS";
-        }
-        else{
-            result = "FAILED\nMISSING " + (60 - finalGrade) + " POINTS";
-        }
-        return result;
+    public String name;
+    public double grade1;
+    public double grade2;
+    public double grade3;
+    public double finalGrade() {
+        return grade1 + grade2 + grade3;
     }
-
-    @Override
-    public String toString(){
-      return MessageFormat.format("FINAL GRADE = {0}", checkResults());
+    public double missingPoints() {
+        if (finalGrade() < 60.0) {
+            return 60.0 - finalGrade();
+        }
+        else {
+            return 0.0;
+        }
     }
 }
