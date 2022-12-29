@@ -1,6 +1,6 @@
-package problems.alturas.application;
+package problems.mais_velho.application;
 
-import problems.alturas.entities.Person;
+import problems.mais_velho.entities.Person;
 
 import java.util.Scanner;
 
@@ -13,8 +13,8 @@ public class Program {
 
         System.out.print("Quantas pessoas serao digitadas? ");
         Person[] vect = new Person[sc.nextInt()];
-        double sumHeights = 0,avg = 0;
-        int lessThanSixteen = 0;
+        int olderIndex = 0;
+        int older = 0;
         for (int i = 0; i < vect.length; i++) {
             System.out.println("Dados da " + (i+1) + "ª pessoa: ");
             sc.nextLine();
@@ -24,22 +24,12 @@ public class Program {
             System.out.print("Idade: ");
             int age = sc.nextInt();
 
-            System.out.print("Altura: ");
-            double height = sc.nextDouble();
-
-            vect[i] = new Person(name, age, height);
-            sumHeights += height;
-            if(vect[i].getAge() < 16){
-                lessThanSixteen++;
+            vect[i] = new Person(name, age);
+            if(vect[i].getAge() > older){
+                older = age;
+                olderIndex = i;
             }
         }
-        avg = sumHeights / vect.length;
-        System.out.printf("\nAltura media: %.2f\n", avg);
-        System.out.println("Pessoas com menos de 16 anos: " + ((double)lessThanSixteen / vect.length) * 100 + "%");
-        for (Person person : vect) {
-            if (person.getAge() < 16) {
-                System.out.println(person.getName());
-            }
-        }
+        System.out.println("Pessoas mais velha: " + vect[olderIndex].getName());
     }
 }

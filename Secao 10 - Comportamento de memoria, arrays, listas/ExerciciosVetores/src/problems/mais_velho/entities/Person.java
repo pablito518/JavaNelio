@@ -1,14 +1,12 @@
-package problems.alturas.entities;
+package problems.mais_velho.entities;
 
 public class Person {
     private String name;
     private int age;
-    private double height;
 
-    public Person(String name, int age, double height) {
+    public Person(String name, int age) {
         this.name = name;
         this.age = age;
-        this.height = height;
     }
 
     public String getName() {
@@ -25,13 +23,5 @@ public class Person {
 
     public void setAge(int age) {
         this.age = age;
-    }
-
-    public double getHeight() {
-        return height;
-    }
-
-    public void setHeight(double height) {
-        this.height = height;
     }
 }
