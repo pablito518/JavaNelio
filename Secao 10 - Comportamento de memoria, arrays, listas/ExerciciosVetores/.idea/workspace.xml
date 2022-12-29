@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a1bacd7-0929-441e-b4c5-c3ddf9f65017" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/problems/mais_velho/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/mais_velho/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/mais_velho/entities/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/mais_velho/entities/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/aprovados/application/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/aprovados/entities/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Secao 8 - Introducao a Programacao Orientada a Objetos/ExercicioFixacao/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Secao 8 - Introducao a Programacao Orientada a Objetos/ExercicioFixacao/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,11 +38,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Cursos/JavaNelio/Secao 10 - Comportamento de memoria, arrays, listas/ExerciciosVetores/src/problems/mais_velho"
+    "last_opened_file_path": "C:/Cursos/JavaNelio/Secao 10 - Comportamento de memoria, arrays, listas/ExerciciosVetores/src/problems/aprovados"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Cursos\JavaNelio\Secao 10 - Comportamento de memoria, arrays, listas\ExerciciosVetores\src\problems\aprovados" />
       <recent name="C:\Cursos\JavaNelio\Secao 10 - Comportamento de memoria, arrays, listas\ExerciciosVetores\src\problems\mais_velho" />
     </key>
   </component>
