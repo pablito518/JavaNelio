@@ -6,9 +6,10 @@ import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) {
-        /*Fazer um programa para ler nome, idade e altura de N pessoas, conforme exemplo. Depois, mostrar na
-        tela a altura média das pessoas, e mostrar também a porcentagem de pessoas com menos de 16 anos,
-        bem como os nomes dessas pessoas caso houver.*/
+        /*Fazer um programa para ler um conjunto de N nomes de alunos, bem como as notas que eles tiraram
+        no 1º e 2º semestres. Cada uma dessas informações deve ser armazenada em um vetor. Depois, imprimir
+        os nomes dos alunos aprovados, considerando aprovados aqueles cuja média das notas seja maior ou
+        igual a 6.0 (seis)*/
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Quantas pessoas serao digitadas? ");
