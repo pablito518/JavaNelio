@@ -1,6 +1,6 @@
 package problems.alturas.application;
 
-import problems.alturas.entities.Pessoa;
+import problems.alturas.entities.Person;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ public class Program {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Quantas pessoas serao digitadas? ");
-        Pessoa[] vect = new Pessoa[sc.nextInt()];
+        Person[] vect = new Person[sc.nextInt()];
         double sumHeights = 0,avg = 0;
         int lessThanSixteen = 0;
         for (int i = 0; i < vect.length; i++) {
@@ -20,11 +20,14 @@ public class Program {
             sc.nextLine();
             System.out.print("Nome: ");
             String name = sc.nextLine();
+
             System.out.print("Idade: ");
             int age = sc.nextInt();
+
             System.out.print("Altura: ");
             double height = sc.nextDouble();
-            vect[i] = new Pessoa(name, age, height);
+
+            vect[i] = new Person(name, age, height);
             sumHeights += height;
             if(vect[i].getAge() < 16){
                 lessThanSixteen++;
@@ -33,9 +36,9 @@ public class Program {
         avg = sumHeights / vect.length;
         System.out.printf("\nAltura media: %.2f\n", avg);
         System.out.println("Pessoas com menos de 16 anos: " + ((double)lessThanSixteen / vect.length) * 100 + "%");
-        for (Pessoa pessoa : vect) {
-            if (pessoa.getAge() < 16) {
-                System.out.println(pessoa.getName());
+        for (Person person : vect) {
+            if (person.getAge() < 16) {
+                System.out.println(person.getName());
             }
         }
     }
