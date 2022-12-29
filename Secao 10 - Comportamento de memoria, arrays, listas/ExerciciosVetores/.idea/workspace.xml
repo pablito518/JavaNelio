@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="689e05cd-db11-4861-81f9-0fdc38ea6014" name="Changes" comment="">
+    <list default="true" id="4a1bacd7-0929-441e-b4c5-c3ddf9f65017" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/problems/negativos/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vetores/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Vetores/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Secao 8 - Introducao a Programacao Orientada a Objetos/ExercicioFixacao/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Secao 8 - Introducao a Programacao Orientada a Objetos/ExercicioFixacao/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +24,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2JZ75HQJmIi3E89yOeAs1RmVbfL" />
+  <component name="ProjectId" id="2JZ9GXVpDpxlz3KsxyzL8We9BCa" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,18 +32,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="689e05cd-db11-4861-81f9-0fdc38ea6014" name="Changes" comment="" />
-      <created>1672273569009</created>
+      <changelist id="4a1bacd7-0929-441e-b4c5-c3ddf9f65017" name="Changes" comment="" />
+      <created>1672274644537</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1672273569009</updated>
+      <updated>1672274644537</updated>
     </task>
     <servers />
   </component>
