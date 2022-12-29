@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4a1bacd7-0929-441e-b4c5-c3ddf9f65017" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/problems/abaixo_da_media/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/soma_vetores/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/soma_vetores/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/media_pares/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Secao 8 - Introducao a Programacao Orientada a Objetos/ExercicioFixacao/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Secao 8 - Introducao a Programacao Orientada a Objetos/ExercicioFixacao/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
