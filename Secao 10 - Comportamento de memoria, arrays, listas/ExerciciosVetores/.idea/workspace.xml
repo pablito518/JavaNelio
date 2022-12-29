@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a1bacd7-0929-441e-b4c5-c3ddf9f65017" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/problems/soma_vetor/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/alturas/application/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/alturas/entities/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExerciciosVetores/problems/negativos/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExerciciosVetores/problems/negativos/Program.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Secao 8 - Introducao a Programacao Orientada a Objetos/ExercicioFixacao/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Secao 8 - Introducao a Programacao Orientada a Objetos/ExercicioFixacao/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,5 +47,16 @@
       <updated>1672274644537</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/problems/alturas/application/Program.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
