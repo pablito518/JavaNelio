@@ -22,7 +22,12 @@ public class Program {
                 somaPares += vect[i];
             }
         }
-        System.out.println("Media dos pares = " + ((double) somaPares/qtPares));
+        if(qtPares > 0){
+            System.out.println("Media dos pares = " + ((double) somaPares/qtPares));
+        }
+        else{
+            System.out.println("Nenhum numero par");
+        }
 
 
 
