@@ -4,11 +4,11 @@ public class Renter {
     private String name;
     private String email;
 
-    private int room;
-    public Renter(String nome, String email, int room) {
-        this.name = nome;
+    private int rentedRoom;
+    public Renter(String name, String email, int room) {
+        this.name = name;
         this.email = email;
-        this.room = room;
+        this.rentedRoom = room;
     }
 
     public String getName() {

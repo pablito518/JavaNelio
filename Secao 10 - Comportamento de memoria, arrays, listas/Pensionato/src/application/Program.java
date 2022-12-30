@@ -21,16 +21,16 @@ public class Program {
             System.out.print("Email: ");
             String email = sc.nextLine();
             System.out.print("Room: ");
-            int room = sc.nextInt();
-            Renter renter = new Renter(name, email, room);
-            bh.rentRoom(renter, room);
+            int roomNumber = sc.nextInt();
+            Renter renter = new Renter(name, email, roomNumber);
+            bh.rentRoom(renter, roomNumber);
         }
 
         System.out.println("\nBusy rooms: ");
         for (int i = 0; i < 10; i++) {
-            if(bh.showBusyRooms(i) != null){
+            if(bh.getBusyRooms(i) != null){
                 System.out.println(MessageFormat.format(
-                        "{0}: {1}, {2}" ,i,bh.showBusyRooms(i).getName(),bh.showBusyRooms(i).getEmail()));
+                        "{0}: {1}, {2}" ,i,bh.getBusyRooms(i).getName(),bh.getBusyRooms(i).getEmail()));
             }
         }
     }

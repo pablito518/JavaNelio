@@ -19,9 +19,9 @@ public class BoardingHouse {
         renters[room] = renter;
     }
 
-    public Renter showBusyRooms(int room){
-            if(renters[room] != null){
-                return renters[room];
+    public Renter getBusyRooms(int roomNumber){
+            if(renters[roomNumber] != null){
+                return renters[roomNumber];
             }
         return null;
     }
