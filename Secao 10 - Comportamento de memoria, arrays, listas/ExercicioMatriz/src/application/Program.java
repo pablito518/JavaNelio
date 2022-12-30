@@ -9,7 +9,7 @@ public class Program {
         int cols = sc.nextInt();
 
 
-        int mat[][] = new int[rows][cols];
+        int[][] mat = new int[rows][cols];
 
         for (int i = 0; i < mat.length; i++) {
             for (int j = 0; j < cols; j++) {
