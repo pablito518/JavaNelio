@@ -24,6 +24,7 @@ public class Program {
             people[i] = new Person(height, gender);
         }
         smaller = people[0].getHeight();
+        taller = people[0].getHeight();
         for (Person person : people) {
             smaller = (person.getHeight() < smaller) ? person.getHeight() : smaller;
             taller = (person.getHeight() > taller) ? person.getHeight() : taller;
